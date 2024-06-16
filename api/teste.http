@@ -1,0 +1,2 @@
+GET http://api.weatherapi.com/v1/forecast.json?key=545c605410b74c09a2921907241506&q=Porto Alegre&days=1&aqi=no&alerts=no
+Host: api.weatherapi.com

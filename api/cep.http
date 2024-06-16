@@ -1,0 +1,3 @@
+GET http://localhost:8000/temp_cep?cep=91040300
+Host: localhost:8000
+Content-Type: application/json

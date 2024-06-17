@@ -21,6 +21,10 @@ teste.http para testar a API diretamente
 - Foi adicionado ao http configuração para que dentro do Docker não desse erro ao chamar a ViaCep
 
 docker build -t tempcep:latest -f cmd/Dockerfile.prod ./
-docker run --rm -p 8080:8080 tempcep:latest
+docker run --rm -p 8000:8000 tempcep:latest
 
 -- Google Cloud Run
+Acessar :
+https://goexpert-labs-cloudrun-u55rhu4ofa-uc.a.run.app/temp_cep?cep={cep}
+
+Na pasta api utilizar o arquivo cloudrun.http

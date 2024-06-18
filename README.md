@@ -19,8 +19,8 @@ teste.http para testar a API diretamente
 
 -- DOCKER
 - Foi adicionado ao http configuração para que dentro do Docker não desse erro ao chamar a ViaCep
-
-docker build -t tempcep:latest -f cmd/Dockerfile.prod ./
+- Na raiz do projeto executar:
+docker build -t tempcep:latest -f Dockerfile.prod ./
 docker run --rm -p 8000:8000 tempcep:latest
 
 -- Google Cloud Run
